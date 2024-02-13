@@ -33,7 +33,7 @@ botonNo.addEventListener('click', (e) => {
         e.target.textContent = 'No tienes otra opción, dale que sí 😚'
         gif.setAttribute('src', './imagenes/gato4.gif')
     } else if (i === 5) {
-        e.target.textContent = 'Lo digo enserio 🥹'
+        e.target.textContent = 'Lo digo enserio ❤️'
         gif.setAttribute('src', './imagenes/gato5.gif')
     } else if (i === 6) {
         e.target.textContent = 'ya deja de intentar XD'
