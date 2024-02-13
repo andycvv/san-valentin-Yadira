@@ -6,12 +6,13 @@
 
 body {
     font-family: system-ui;
-    background-color: rgb(255, 198, 198);
+    background-color: rgb(255, 142, 142);
 }
 
 .contenedor {
-    height: 100vh;
+    padding: 10px;
     margin: auto;
+    height: 100vh;
     max-width: 500px;
     display: flex;
     flex-direction: column;
@@ -58,11 +59,12 @@ button:hover{
     font-size: 24px;
     pointer-events: none;
     z-index: 9999;
-    animation: fall 2s linear;
+    animation: fall 1s linear;
 }
 
 .title {
     text-align: center;
+    color: rgb(255, 0, 0);
 }
 
 @keyframes fall {

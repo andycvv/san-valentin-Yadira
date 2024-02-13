@@ -7,7 +7,7 @@ function createHeart() {
     const heart = document.createElement('div');
     heart.classList.add('heart');
     heart.style.left = Math.random() * window.innerWidth + 'px';
-    heart.style.animationDuration = Math.random() * 8 + 4 + 's';
+    heart.style.animationDuration = Math.random() * 4 + 3 + 's';
     heart.innerHTML = '❤️';
     document.body.appendChild(heart);
     setTimeout(() => {
@@ -48,9 +48,7 @@ botonSi.addEventListener('click', (e) => {
     title.textContent = `TE AMO MUCHO YADIRA ❤️❤️❤️`
 
     // Generar corazones
-    for (let i = 0; i < 30; i++) {
-        createHeart();
-        createHeart();
+    for (let i = 0; i < 100; i++) {
         createHeart();
     }
 })
